@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int encontrarMaior(int numero1, int numero2) {
+    if (numero1 > numero2) {
+        return numero1;
+    } else {
+        return numero2;
+    }
+}
+
+int main() {
+    int num1, num2;
+
+    cin >> num1;
+    cin >> num2;
+
+    int maiorNumero = encontrarMaior(num1, num2);
+
+    cout  << maiorNumero << endl;
+
+    return 0;
+}
